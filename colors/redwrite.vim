@@ -1,10 +1,9 @@
-set background=dark
+let g:colors_name = "redwrite"
 
 hi clear
-if exists("syntax_on")
-  syntax reset
-endif
+syntax off
+set nocursorcolumn
 
-let g:colors_name = "redwrite"
+set background=dark
 
 hi! Normal ctermfg=9 guifg=#ff0000
